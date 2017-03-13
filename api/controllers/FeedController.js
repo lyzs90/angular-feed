@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-	subscribe: function(req, res) {
+	subscribe: (req, res) => {
     if(!req.isSocket) {
       return res.badRequest();
     }

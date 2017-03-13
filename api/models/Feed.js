@@ -19,7 +19,7 @@ module.exports = {
     }
   },
 
-  afterCreate: function(entry, cb) {
+  afterCreate: (entry, cb) => {
     sails.sockets.broadcast('feed', 'new_entry', entry);
     cb();
   }
