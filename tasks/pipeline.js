@@ -38,10 +38,16 @@ var jsFilesToInject = [
   'bower_components/angular-animate/angular-animate.js',
   'bower_components/angular-moment/angular-moment.js',
   'bower_components/angular-resource/angular-resource.js',
+  'bower_components/angular-route/angular-route.js',
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
-  'js/**/*.js'
+  'js/**/*.module.js',
+  'js/**/*.component.js',
+  'js/**/*.config.js',
+  'js/**/*.service.js',
+  'js/**/*.animations.js',
+  'js/**/*.filter.js'
 ];
 
 

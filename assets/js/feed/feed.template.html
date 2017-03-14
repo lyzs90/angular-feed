@@ -7,8 +7,8 @@
     </h1>
   </div>
 
-  <section ng-controller="FeedCtrl">
-    <div ng-repeat="entry in feedEntries | orderBy:'+':true" class="feed-entry">
+  <section>
+    <div ng-repeat="entry in $ctrl.feedEntries | orderBy:'+':true" class="feed-entry">
       <span class="pull-right text-muted" am-time-ago="entry.createdAt"></span>
       <i class="fa fa-{{entry.icon}} text-muted"></i>
       {{entry.title}}
