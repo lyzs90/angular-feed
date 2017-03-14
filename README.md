@@ -1,3 +1,3 @@
-# realtimefeed
+# Realtime Notifications
 
-a [Sails](http://sailsjs.org) application
+Built using [Sails](http://sailsjs.org) and [Angular](https://angularjs.org/). Adapted from @nehalist [application](https://github.com/nehalist/Realtime-Notifications).
